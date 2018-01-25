@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ejercicico18</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+
+    <form action="http://daw.iesjoaquinmir.cat/sarti.php" method="POST"                                                                                                   enctype="multipart/form-data">
+
+        <label for="nombre">NOMBRE</label><br>
+        <input type="text" name="nombre" id="nombre" size="30">
+        <br><br>
+
+        <label for="apellidos">APELLIDOS</label>
+        <input type="text" name="apellidos"id="apellidos"size="80"><br>
+        <br><br>
+
+        <label for="contraseña">CONTRASEÑA</label>
+        <input type="password" id="contraseña"size="10">
+        <br><br>
+
+        <label for="dni">DNI</label>
+        <input type="text" dni="dni"id="dni" maxlenght="9">
+        <br> <br>
+
+        <label for="sexo">SEXO</label> <br>   
+            <input type="radio" id="sexo" name="gender" value="hombre"> HOMBRE<br>
+            <input type="radio"id="sexo" name="gender" value="mujer"> MUJER<br><br>
+            
+        <input	name="imagen"	type="file"	/><br><br>
+
+            <input name="boletin" id="boletin" type="checkbox" value="on"/ checked="checked">
+            <label for="boletin">Subscribirme al boletin de novedades</label><br><br>
+
+
+            <input type="submit" value="Guardar cambios" /> 
+            <input type="reset" value="Borrar datos introducidos" /> 
+
+    </form>    
+
+</body>
+</html>
